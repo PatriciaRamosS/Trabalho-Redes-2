@@ -22,7 +22,7 @@ class Servidor:
     def registrar_monitor_de_conexoes_aceitas(self, callback):
         """
         Usado pela camada de aplicação para registrar uma função para ser chamada
-        sempre que uma nova conexão for aceita
+        sempre que uma nova conexão for aceita.
         """
         self.callback = callback
 
